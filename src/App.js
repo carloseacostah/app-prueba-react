@@ -1,23 +1,29 @@
 import './App.css';
 import './test.css';
 import NavBar from './componentes/NavBar/NavBar';
-
-
-
+import CardList from './componentes/CardList/CardList';
+import SnackBar from './componentes/SnackBar/SnackBar';
+import UbicacionPagina from './componentes/Ubicacion/Ubicacion';
 function App() {
-  let test = "Coder"
+
   let styleCustom= {
-    color : 'green',
     border: '1px solid',
     marginBottom: 20
   }
   
   return (
     <div className="App" style={styleCustom} >
-     <NavBar/>
-      <h1 className="title" >
-          Contenido del App {test}
-      </h1>  
+      <NavBar/>
+      <div >
+        <UbicacionPagina  title={"> INICIO "} />
+      </div>
+      <div >
+        <CardList  title={"Producto Recomendados"}/>
+      </div>
+      <div >
+        <CardList  title={"Producto Relacionados"}/>
+      </div>
+
     </div>
   );
 }

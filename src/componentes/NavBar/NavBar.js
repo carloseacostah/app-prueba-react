@@ -4,14 +4,14 @@ import './NavBar.css';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
-
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 const NavBar = () => {
     return (
-        <AppBar position="static">
+        <AppBar position="static" >
           <Toolbar>
             <div className='container-logo'>
-              <img src="./logo192.png"/>
+              <img src='./logo192.png'/>
             </div>
             
               <ul className="ul"> 
@@ -29,6 +29,7 @@ const NavBar = () => {
                   </li>
                 </ul>
             <Button color="inherit">Login</Button>
+            <AddShoppingCartIcon />
           </Toolbar>
         </AppBar>
     )

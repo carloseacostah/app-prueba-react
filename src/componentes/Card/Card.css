@@ -1,0 +1,39 @@
+.general-container > div{
+    margin-right:  740px;
+    margin-top: 20px;
+
+}
+
+.MuiGrid-root.MuiGrid-item {
+    margin-right: 20px;
+    margin-left: 10px;
+   
+}
+
+.card-item img{
+
+    width: 100%;
+    margin-top: 10px;
+
+}
+
+.card-item{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item p { 
+
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.card-item span {
+
+    margin-bottom:  10px;
+    font-size:  16px;
+}

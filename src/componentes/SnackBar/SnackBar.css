@@ -1,0 +1,13 @@
+.snackbar-custom {
+    
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+    top:20px;
+    background: rgba(23, 23, 34, 0.55);
+    border-radius:  4px;
+    box-shadow:  1px 1px 5px #0000004a;
+    padding: 0px;
+    color: white;
+    width: 50%;
+}
