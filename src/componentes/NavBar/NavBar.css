@@ -1,0 +1,32 @@
+.navbar{
+    float: left;
+    width: 100%;
+    border-bottom: #ccc;
+}
+
+.container-logo{
+    width: 150px;
+}
+
+.container-logo img{
+    width: 50%;
+}
+
+ul{
+    height: 60px;
+    width: 100%;
+    text-align: center;
+  }
+
+li{
+    float: left;
+    margin-top: 20px;
+    padding: 0px 12px 20px 19px;
+    margin-left: 7%;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+
