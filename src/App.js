@@ -4,6 +4,8 @@ import NavBar from './componentes/NavBar/NavBar';
 import CardList from './componentes/CardList/CardList';
 import SnackBar from './componentes/SnackBar/SnackBar';
 import UbicacionPagina from './componentes/Ubicacion/Ubicacion';
+import { useState } from 'react';
+
 function App() {
 
   let styleCustom= {
@@ -23,7 +25,7 @@ function App() {
       <div >
         <CardList  title={"Producto Relacionados"}/>
       </div>
-
+     
     </div>
   );
 }
