@@ -30,7 +30,8 @@ const CardItem = ({image, title, price}) => {
                 <div className='count-item'>
                     <Button onClick={removeCount} disabled={count==0}>-</Button>
                     <p>{count}</p>
-                    <Button onClick={addCount}>+</Button>
+                    <Button onClick={addCount} disabled={count==5}>+</Button>
+                   Contador de click: {count} Fecha: date
                 </div>
             </div>
                 <Button variant={'contained'} onClick={() => setOpen(true)} >Detalle</Button>
