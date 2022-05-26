@@ -5,6 +5,8 @@ import CardContent from '@mui/material/CardContent';
 import { Button } from '@mui/material';
 import Modal from '../Modal/Modal';
 
+
+
 const CardItem = ({image, title, price}) => {
     const [open, setOpen] = useState(false)
     const [count,setCount] = useState(0)
@@ -30,8 +32,8 @@ const CardItem = ({image, title, price}) => {
                 <div className='count-item'>
                     <Button onClick={removeCount} disabled={count==0}>-</Button>
                     <p>{count}</p>
-                    <Button onClick={addCount} disabled={count==5}>+</Button>
-                   Contador de click: {count} Fecha: date
+                    <Button onClick={addCount} >+</Button>
+                  
                 </div>
             </div>
                 <Button variant={'contained'} onClick={() => setOpen(true)} >Detalle</Button>

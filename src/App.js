@@ -1,10 +1,9 @@
 import './App.css';
 import './test.css';
 import NavBar from './componentes/NavBar/NavBar';
-import CardList from './componentes/CardList/CardList';
-import SnackBar from './componentes/SnackBar/SnackBar';
 import UbicacionPagina from './componentes/Ubicacion/Ubicacion';
 import { useState } from 'react';
+import ItemList from './componentes/item/ItemListContainer';
 
 function App() {
 
@@ -13,6 +12,8 @@ function App() {
     marginBottom: 20
   }
   
+  
+  
   return (
     <div className="App" style={styleCustom} >
       <NavBar/>
@@ -20,11 +21,12 @@ function App() {
         <UbicacionPagina  title={"> INICIO "} />
       </div>
       <div >
-        <CardList  title={"Producto Recomendados"}/>
+   
       </div>
       <div >
-        <CardList  title={"Producto Relacionados"}/>
+     
       </div>
+   <ItemList />
      
     </div>
   );
